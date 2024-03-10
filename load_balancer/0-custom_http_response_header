@@ -37,4 +37,4 @@ printf %s "server {
 }
 " > /etc/nginx/sites-available/default
 
-service nginx restart 3434
+service nginx restart
