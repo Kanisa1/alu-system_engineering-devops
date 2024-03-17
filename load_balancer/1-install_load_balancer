@@ -17,8 +17,8 @@ frontend  Kanisa1_frontend
         default_backend besthor_backend
 backend Kanisa1_backend
         balance roundrobin
-        server 176572-web-01 54.165.168.252:80 check
-        server 176572-web-02 34.237.91.136:80 check
+        server 6039-web-01 54.173.16.85
+        server 6039-web-02 18.205.239.18
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
