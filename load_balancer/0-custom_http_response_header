@@ -17,4 +17,3 @@ server {
 sudo chown -R "$USER":"$USER" /etc/nginx/sites-available/default
 echo "$new_config" > /etc/nginx/sites-available/default
 sudo service nginx restart
-
